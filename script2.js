@@ -1,17 +1,42 @@
-var resume={
-    "name":"Priyadharshini",
-    "place":"hosur",
-    "contact":"98765432",
-    "mail":"priya@gmail.com",
-    "marks":"95% in 10th--2011",
-            "90% in 12th--2013",
-            "85% in UG--2017" ,
-    "experience":"joined as a trainee in e-pushilishin company",
-                 "worked for the customer RSC for 2 years",
-                 "working for the customer ACS for 2 years as freelancer",
-                 "having 4+ years of experience in pre-editing",
-    "hobbies":"playing volleyball",
-    "strength":"can easily mingle with the co-worker",
-    "weakness":"slow learner"             
-};
-console.log(resume);
+{
+    "name": "Priyadharshini T.",
+    "contact": {
+        "email": "abc@gmail.com",
+        "phone": "12345",
+        "address": "ITI"
+    },
+    "education": [
+        {
+            "degree": "B.Tech",
+            "college": "Adhiyamaan College",
+            "year": "2017"
+        },
+        {
+            "class": "12th",
+            "school": "St.John Bosco",
+            "year": "2013"
+        },
+        {
+            "class": "10th",
+            "school": "St.John Bosco",
+            "year": "2011"
+        }
+    ],
+    "work_experience": [
+        {
+            "company": "TNQ Tech",
+            "position": "Associate copy-editor",
+            "year": "2017 Sept to 2019 May"
+        },
+        {
+            "company": "TNQ Tech",
+            "position": "Freelancer",
+            "year": "2020 May to Till date"
+        }
+    ],
+    "skills": [
+        "copyediting",
+        "styleediting",
+        "technicalediting"
+    ]
+}
